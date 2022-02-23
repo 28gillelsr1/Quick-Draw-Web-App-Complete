@@ -71,7 +71,7 @@ function check_sketch()
 {
   timer_counter++;
   document.getElementById('time').innerHTML = 'Timer: ' + timer_counter;
-  if(timer_counter > 500)
+  if(timer_counter > 550)
     {
       timer_counter = 0;
       timer_check = "completed";
